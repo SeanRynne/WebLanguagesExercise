@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Final exercise
+        </title>
+    </head>
+    <body>
+        <!--The code below makes an input box that sets the id to be used later-->
+        <input id="name-input" type="text" placeholder="Enter your name" />
+        <!--Creates a button next to the input that makes an action when clicked-->
+        <button id="my-button">Click Me</button>
+        <!--Code below is a script that runs an checks when the button has been clicked and if an-->
+        <!--Input has been added it checks in the if then it makes a pop up screen with the alert function-->
+        <!--and has an output with the name you entered-->
+    <script>
+        
+        var myButton = document.querySelector('#my-button');
+        var nameInput = document.querySelector('#name-input');
+
+        myButton.addEventListener('click', function () {
+            if (nameInput.value !== '') {
+                alert('Hello ' + nameInput.value);
+            }
+        });
+    </script>
+    </body>
+</html>
