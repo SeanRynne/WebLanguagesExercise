@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(37, 125, 201);
+    font:italic;
+}
+
+#main-header{
+    font-size: 40px;
+    text-align: center;
+}
+
+.content-paragraph{
+    color: black;
+    margin-bottom: 12px;
+}
